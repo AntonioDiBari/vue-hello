@@ -7,6 +7,12 @@ const app = createApp({
         text: "Vue Hello!",
       },
       imageLink: "https://picsum.photos/200",
+      page: [
+        "text-center",
+        "bg-secondary",
+        "py-5",
+        "border border-black border-5",
+      ],
     };
   },
 });
